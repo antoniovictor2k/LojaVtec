@@ -20,7 +20,7 @@ body {
 .navbar-logo{
 margin-left: 15px;
 font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto */
-font-size: 35px; /* Ajuste o tamanho conforme necessário */
+font-size: 28px; /* Ajuste o tamanho conforme necessário */
 color: var(--text-white); /* Cor da fonte */
 text-transform: uppercase; /* Transforma o texto para maiúsculas */
 letter-spacing: 2px; /* Espaçamento entre as letras */
@@ -56,6 +56,10 @@ a:hover {
 }
 h1, h2, h3 {
 	font-weight: 700;
+}
+.navbar-logo h2 {
+	margin-top: 16px;
+	font-weight: 500;
 }
 h4, h5 {
 	font-weight:600;
